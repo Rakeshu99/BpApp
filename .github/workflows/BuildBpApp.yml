@@ -1,4 +1,4 @@
-name: Build and Test BPCalculator
+name: Build BPCalculator
 
 # Triggers: on push to main + manual trigger
 on:
