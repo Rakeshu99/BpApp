@@ -2,14 +2,14 @@ name: Build BPCalculator
 
 # Triggers: on push to main + manual trigger
 on:
-  push:
-   branches: [ "master" ]
+  #push:
+   #branches: [ "master" ]
   workflow_dispatch:           # Allows manual trigger from GitHub Actions UI
 
 jobs:
   build:
 
-    uns-on: ubuntu-latest     # Or 'windows-latest' if preferred
+    runs-on: ubuntu-latest     # Or 'windows-latest' if preferred
 
     steps:
     - uses: actions/checkout@v4
