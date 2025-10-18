@@ -1,9 +1,9 @@
-name: Build and Test BPCalculator
+name: Build BPCalculator
 
 # Triggers: on push to main + manual trigger
 on:
   push:
-    branches: [ main ]        # Only runs when code is pushed to main branch
+    branches: [ master ]        # Only runs when code is pushed to main branch
   workflow_dispatch:           # Allows manual trigger from GitHub Actions UI
 
 jobs:
